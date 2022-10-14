@@ -1,0 +1,17 @@
+kitti360:
+  # data topics
+  topic_name_imu: "kitti360/data_imu_raw/data_imu_raw"
+  topic_name_left_perspective: "kitti360/data_2d_raw/left_perspective"
+  topic_name_right_perspective: "kitti360/data_2d_raw/right_perspective"
+  topic_name_lidar_velo: "kitti360/data_3d_raw/lidar_velo"
+  topic_name_gt_path: "kitti360/data_poses/gt_path"
+  topic_name_gt_odom: "kitti360/data_poses/gt_odom"
+huiyan_slam:
+  # ros frames
+  frame_id_world: "world"
+  frame_id_lidar: "lidar"
+  frame_id_cam0: "cam0"
+  frame_id_cam1: "cam1"
+  frame_id_imu: "imu"
+  #
+  data_output_dir: "output/"
